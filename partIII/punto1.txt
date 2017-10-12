@@ -1,0 +1,3 @@
+-- 1. Create a tablespace called "RENTING_COLOMBIA" with one datafile of 150Mb, the name of the datafile should be: renting.dbf
+CREATE TABLESPACE RENTING_COLOMBIA DATAFILE
+'C:\renting.dbf' SIZE 150M;

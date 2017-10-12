@@ -1,0 +1,8 @@
+--2. Create a profile named "comercial_medellin" with the following specifications: (0.1)
+--  a) Idle time of 25 minutes
+--  b) Failed login attempts 4
+--  c) Onle one session per user
+CREATE PROFILE comercial_medellin LIMIT 
+  SESSIONS_PER_USER                 1   --
+  IDLE_TIME                        25   -- minutos 
+  FAILED_LOGIN_ATTEMPTS             4 ;

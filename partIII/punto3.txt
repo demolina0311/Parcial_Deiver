@@ -1,0 +1,6 @@
+--  3. Create an user named "amartinez" with only 50Mb of space on tablespace, the profile should be "comercial_medellin" (0.1)
+CREATE USER amaartinez
+IDENTIFIED BY amaartinez
+DEFAULT TABLESPACE RENTING_COLOMBIA
+QUOTA 50M ON RENTING_COLOMBIA
+PROFILE comercial_medellin;
